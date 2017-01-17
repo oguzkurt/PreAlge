@@ -9,44 +9,25 @@
 \begin{question}
 \begin{sagesilent}
 #Solution will be (x1,y1)
-x1 = Integer(randint(-6,6))
-x2 = Integer(randint(-6,6))
+x = ZZ['x'].0
+x1 = Integer(randint(-6,6));
+x2 = Integer(randint(-6,6));
 while x1==0:
-    x1==Integer(randint(-6,6))
-while x2==0 or x1>x2:
-    x2==Integer(randint(-6,6))
-if x1<0:
-    ax1=abs(x1)
-    sx1=-1
-else:
-    ax1=x1
-    sx1=+1
-if x2<0:
-    ax2=abs(x2)
-    sx2='-'
-else:
-    ax2=x2
-    sx2='+'
-b=x1+x2
-if b<0:
-    ab=-b
-    sb='-'
-else:
-    ab=b
-    sb='+'
-c=x1*x2
-if c<0:
-    ac=-c
-    sc='-'
-else:
-    ac=c
-    sc='+'
+    x1=Integer(randint(-6,6));
+while x2==0:
+    x2=Integer(randint(-6,6));
+p=(x+x1)*(x+x2);
+p;
+f=p.factor();
+f;
+list(f);
+
 \end{sagesilent}
 
-Factorize the polynomial $x^2\sage{sb}\sage{ab}x\sage{sc}\sage{ac}$
+Factorize the polynomial $\sage{p}$.
 
 
-$(\answer{x\sage{sx1}\sage{ax1}})(\answer{x\sage{sx2}\sage{ax2}})$\\\\
+$(\answer{\sage{f[0][0]}})(\answer{\sage{f[1][0]}})$\\\\
 
 \end{question}
 \begin{question}
