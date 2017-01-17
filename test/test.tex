@@ -3,6 +3,172 @@
 \def\mystrut(#1,#2){\vrule height #1pt depth #2pt width 0pt}
 \linespread{1.6}
 \begin{document}
+
+\noindent Solve by substitution:
+\begin{shuffle}
+\begin{question}
+\begin{sagesilent}
+var('x,y,z,t')
+#Solution will be (x1,y1)
+x1 = Integer(randint(1,6))
+y1 = Integer(randint(1,6))
+m1 = Integer(randint(1,6))
+m2 = -Integer(randint(1,6)) 
+a1 = Integer(randint(1,6))
+a2 = a1 + Integer(randint(1,8))
+\end{sagesilent}
+
+$\begin{cases}
+\sage{-m1*a1}x+\sage{a1}y=\sage{a1*y1-m1*x1*a1}\\
+\sage{-m2*a2}x+\sage{a2}y=\sage{a2*y1-m2*x1*a2}\\
+\end{cases}$\\\\
+
+{\bf Solution:} The solution to the system is 
+\answer{$(\sage{x1},\sage{y1})$}.\\\\
+\end{question}
+
+\begin{question}
+\begin{sagesilent}
+var('x,y,z,t')
+#Solution will be (x1,y1)
+x1 = Integer(randint(1,6))
+y1 = Integer(randint(1,6))
+m1 = Integer(randint(1,6))
+m2 = -Integer(randint(1,6)) 
+a1 = Integer(randint(1,6))
+a2 = a1 + Integer(randint(1,8))
+\end{sagesilent}
+$\begin{cases}
+\sage{-m1*a1}x+\sage{a1}y=\sage{a1*y1-m1*x1*a1}\\
+\sage{-m2*a2}x+\sage{a2}y=\sage{a2*y1-m2*x1*a2}\\
+\end{cases}$\\\\
+
+{\bf Solution:} The solution to the system is 
+\answer{$(\sage{x1},\sage{y1})$}.\\\\
+\end{question}
+
+\begin{question}
+\begin{sagesilent}
+var('x,y,z,t')
+#Solution will be (x1,y1)
+x1 = Integer(randint(1,6))
+y1 = Integer(randint(1,6))
+m1 = Integer(randint(1,6))
+m2 = -Integer(randint(1,6)) 
+a1 = Integer(randint(1,6))
+a2 = a1 + Integer(randint(1,8))
+\end{sagesilent}
+$\begin{cases}
+\sage{-m1*a1}x+\sage{a1}y=\sage{a1*y1-m1*x1*a1}\\
+\sage{-m2*a2}x+\sage{a2}y=\sage{a2*y1-m2*x1*a2}\\
+\end{cases}$\\\\
+
+{\bf Solution:} The solution to the system is 
+\answer{$(\sage{x1},\sage{y1})$}.\\\\
+\end{question}
+\begin{question}
+\begin{sagesilent}
+var('x,y,z,t')
+#Solution will be (x1,y1)
+x1 = Integer(randint(1,6))
+y1 = Integer(randint(1,6))
+m1 = Integer(randint(1,6))
+m2 = -Integer(randint(1,6)) 
+a1 = Integer(randint(1,6))
+a2 = a1 + Integer(randint(1,8))
+\end{sagesilent}
+$\begin{cases}
+\sage{-m1*a1}x+\sage{a1}y=\sage{a1*y1-m1*x1*a1}\\
+\sage{-m2*a2}x+\sage{a2}y=\sage{a2*y1-m2*x1*a2}\\
+\end{cases}$\\\\
+
+{\bf Solution:} The solution to the system is 
+\answer{$(\sage{x1},\sage{y1})$}.\\\\
+\end{question}
+\begin{question}
+\begin{sagesilent}
+var('x,y,z,t')
+#Solution will be (x1,y1)
+x1 = Integer(randint(1,6))
+y1 = Integer(randint(1,6))
+m1 = Integer(randint(1,6))
+m2 = -Integer(randint(1,6)) 
+a1 = Integer(randint(1,6))
+a2 = a1 + Integer(randint(1,8))
+\end{sagesilent}
+$\begin{cases}
+\sage{-m1*a1}x+\sage{a1}y=\sage{a1*y1-m1*x1*a1}\\
+\sage{-m2*a2}x+\sage{a2}y=\sage{a2*y1-m2*x1*a2}\\
+\end{cases}$\\\\
+
+{\bf Solution:} The solution to the system is 
+\answer{$(\sage{x1},\sage{y1})$}.\\\\
+\end{question}
+\begin{question}
+\begin{sagesilent}
+var('x,y,z,t')
+#Solution will be (x1,y1)
+x1 = Integer(randint(1,6))
+y1 = Integer(randint(1,6))
+m1 = Integer(randint(1,6))
+m2 = -Integer(randint(1,6)) 
+a1 = Integer(randint(1,6))
+a2 = a1 + Integer(randint(1,8))
+\end{sagesilent}
+$\begin{cases}
+\sage{-m1*a1}x+\sage{a1}y=\sage{a1*y1-m1*x1*a1}\\
+\sage{-m2*a2}x+\sage{a2}y=\sage{a2*y1-m2*x1*a2}\\
+\end{cases}$\\\\
+
+{\bf Solution:} The solution to the system is 
+\answer{$(\sage{x1},\sage{y1})$}.\\\\
+\end{question}
+
+\end{shuffle}
+
+
+Solve by elimination:
+\begin{sagesilent}
+var('x,y,z,t')
+#Solution will be infinite (parallel lines)
+x2 = Integer(randint(1,8))
+y2 = Integer(randint(1,8))
+m = Integer(randint(3,8))
+c2 = Integer(randint(1,6))
+\end{sagesilent}
+$\begin{cases}
+\sage{x2}x+\sage{y2}y=\sage{c2}\\
+\sage{m*x2}x+\sage{m*y2}y=\sage{m*c2}\\
+\end{cases}$\\\\
+{\bf Solution:} Since the second equation is obtained from the first equation
+by multiplying by $\sage{m}$ the lines are parallel. Therefore, the solution
+set is infinite and can be expressed using the free variable $y$ as
+$\{(\sage{(c2-y2*y)/x2}, y):y \in \mathbb{R}\}$.\\\\
+
+
+Solve by elimination:
+\begin{sagesilent}
+var('x,y,z')
+#Solution will be infinite (parallel lines)
+x2 = Integer(randint(1,8))
+y2 = Integer(randint(1,8))
+m = Integer(randint(3,8))
+m2 = m+Integer(randint(3,8))
+c2 = Integer(randint(1,6))
+\end{sagesilent}
+$\begin{cases}
+\sage{x2}x+\sage{y2}y=\sage{c2}\\
+\sage{m*x2}x+\sage{m*y2}y=\sage{m2*c2}\\
+\end{cases}$\\\\
+{\bf Solution:} Take the second equation and subtract $\sage{m}$ times the
+first equation will result in the second equation being $0=\sage{(m2-m)*c2}$.
+This means the system is inconsistent; there is no solution.\\\\
+\end{document}
+
+
+
+
+
 \begin{sagesilent}
 A = random_matrix(ZZ,3,3)
 while A.determinant() == 0:
@@ -20,38 +186,3 @@ Show your steps!\\\\\\
 {\bf Solution:} The inverse of   $\sage{B}$ is  \answer{$\sage{B.inverse()}$}.
 
 %\end{document}
-
-\begin{sagesilent}
-var('x,y,z')
-A = random_matrix(ZZ,3,3)
-while A.determinant() == 0 and abs(A.determinant())<6:
-    A = random_matrix(ZZ,3,3)
-
-v1 = Integer(randint(1,5))
-v2 = Integer(randint(1,5))
-v3 = Integer(randint(1,5))
-v = vector(ZZ, [v1, -v2, v3])
-b = vector([x, y, z])
-\end{sagesilent}
-\noindent Solve the matrix equation $\sage{A}\sage{b.transpose()}=\sage{v.column()}$.\\\\\\
-{\bf Solution:} $\sage{b.column()}=\sage{(A.inverse()*v.column())}$\\\\\\
-\begin{sagesilent}
-var('x,y,z')
-A = random_matrix(ZZ,2,2)
-while A.determinant() == 0 and abs(A.determinant())<6:
-    A = random_matrix(ZZ,2,2)
-
-v1 = Integer(randint(1,5))
-v2 = Integer(randint(1,5))
-v = vector(ZZ, [v1, v2])
-b = vector([x, y])
-\end{sagesilent}
-\noindent Solve the system of equations:
-$\begin{cases}
-(\sage{A[0][0]})x+(\sage{A[0][1]})y=\sage{v1}\\
-(\sage{A[1][0]})x+(\sage{A[1][1]})y=\sage{v2}\\
-\end{cases}$\\\\
-\vspace{.25in}
-{\bf Solution:} $x=\sage{(A.inverse()*v.column())[0]}$ and
-$y=\sage{(A.inverse()*v.column())[1]}$
-\end{document}
