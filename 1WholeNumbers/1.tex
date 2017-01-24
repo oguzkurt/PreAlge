@@ -352,26 +352,26 @@ Which law is used to get $$30\times 3 \times 7=30\times 21$$
 \begin{problem}
 Write a number that is a whole number but not a natural number?
 
-Answer is \answer{0}.
+Answer is $\answer{0}$.
 \end{problem}
 
 
 
 
 \begin{problem}
-Additive inverse of 3 is \answer{-3}.
+Additive inverse of 3 is $\answer{-3}$.
 \end{problem}
 
 
 
 
 \begin{problem}
-Additive inverse of -5 is \answer{5}.
+Additive inverse of -5 is $\answer{5}$.
 \end{problem}
 
  
 \begin{problem}
-Additive inverse of $-(-5)$ is \answer{-5}.
+Additive inverse of $-(-5)$ is $\answer{-5}$.
 \end{problem}
 
 \begin{problem}
@@ -405,7 +405,30 @@ Additive inverse of $-a$ is $\answer{a}$.
 
 $$b=\answer{-4}.$$
 \end{problem}
-%\end{shuffle}
+
+\begin{problem}
+
+\begin{image}
+\begin{tikzpicture}[x=0.75cm,>=stealth]
+        \draw[<->] (-7,0)--(7,0);
+        \foreach \x in {-6,...,6}
+%        \draw[shift={(\x,0)},color=black] (0pt,2pt) -- (0pt,-2pt); %node[below] {\footnotesize $\x$};
+        \node[below] at (-7,-5pt) {$\ldots$};
+        \node[below] at (7,-5pt) {$\ldots$};
+        \fill (3,0) circle (2pt);
+        \fill (-6,0) circle (2pt);
+        \draw[->,out=15,in=165,color=blue] (-6,0) to (3,0);
+        \node[color=red] at (3,-0.75) {\small Start};
+        \node at (3,-0.3) {\small $3$};
+        \node[color=blue] at (-6,-0.75) {\small End};
+        \node at (-6,-0.3) {\small $-6$};
+        \node at (-1.5,1) {\small Move \textbf{k} units to the \emph{right}};
+        %\draw[->,shorten >=5pt,shorten <=5pt,out=45,in=135,distance=0.5cm] (0,0) to (1,0);
+\end{tikzpicture}
+\end{image}
+
+$$k=\answer{9}.$$
+\end{problem}
 
 
 \end{document}
