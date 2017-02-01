@@ -1,0 +1,452 @@
+\documentclass{ximera}
+\input{../preamble.tex}
+\title{Arithmetic Laws and Order of Operations \\ Homework 2}
+\author{Oguz Kurt}
+\begin{abstract}
+    \empty
+\end{abstract}
+
+%\outcome{Identify, distinguish natural, whole numbers and integers.}
+%\outcome{Use natural, whole numbers and integers in operations.}
+%\outcome{Learn the impact of different operations on natural, whole numbers and integers.}
+
+\begin{document}
+\maketitle
+
+
+%\begin{shuffle}[1]
+\section*{Arithmetic Laws}
+\begin{problem} Answer the following problems.
+
+$38 - 62 =\answer{\sage{38-62}}$.
+\hfill
+$38 - (-62) =\answer{\sage{38-(-62)}}$.
+
+$-38 - 62 =\answer{\sage{-38-(62)}}$.
+\hfill
+$-38 - (-62) =\answer{\sage{-38-(-62)}}$.
+
+$12\times (2)=\answer{\sage{12*2}}$.
+\hfill
+$12\times (-2)=\answer{\sage{12*-2}}$.
+
+$(-12)\times 2=\answer{\sage{-12*2}}$.
+\hfill
+$(-12)\times (-2)=\answer{\sage{-12*-2}}$.
+
+$-(-10)=\answer{\sage{--10}}$
+\hfill
+$-(-(-10))=\answer{\sage{---10}}$
+\hfill
+$-(-(-(-10)))=\answer{\sage{----10}}$
+
+$24\div 8=\answer{\sage{24/8}}$.
+\hfill
+$24\div (-8)=\answer{\sage{24/-8}}$.
+
+$-24\div 8=\answer{\sage{-24/8}}$.
+\hfill
+$-24\div (-8)=\answer{\sage{-24/-8}}$.
+
+$3^3=\answer{\sage{3^3}}$.
+\hfill
+$(-3)^3=\answer{\sage{(-3)^3}}$.
+
+$(-3)^4=\answer{\sage{(-3)^4}}$.
+\hfill
+$-3^4=\answer{\sage{-3^4}}$.
+
+\end{problem}
+
+\begin{problem}
+Which arithmetic law is used in the following operation:
+$$36-15+0=36-15$$
+
+\begin{multipleChoice}
+    \choice{Commutative Law}
+    \choice{Associative Law}
+    \choice[correct]{Identity Law}
+    \choice{Distributive Law}
+\end{multipleChoice}
+\end{problem}
+
+
+\begin{problem}
+Which arithmetic law is used in the following operation:
+$$36-15+0=36-15$$
+
+\begin{multipleChoice}
+    \choice{Commutative Law}
+    \choice{Associative Law}
+    \choice[correct]{Identity Law}
+    \choice{Distributive Law}
+\end{multipleChoice}
+\end{problem}
+
+
+\begin{problem}
+Which arithmetic law is used in the following operation:
+$$36-15+2=21+2$$
+
+\begin{multipleChoice}
+    \choice{Commutative Law}
+    \choice[correct]{Associative Law}
+    \choice{Identity Law}
+    \choice{Distributive Law}
+\end{multipleChoice}
+\end{problem}
+
+
+\begin{problem}
+Which arithmetic law is used in the following operation:
+$$36-15+2=36+2-15$$
+
+\begin{multipleChoice}
+    \choice[correct]{Commutative Law}
+    \choice{Associative Law}
+    \choice{Identity Law}
+    \choice{Distributive Law}
+\end{multipleChoice}
+\end{problem}
+
+\begin{problem}
+Which arithmetic law is used in the following operation:
+$$3\cdot (6-15)=3\cdot 6+ 3\cdot (-15)$$
+
+\begin{multipleChoice}
+    \choice{Commutative Law}
+    \choice{Associative Law}
+    \choice{Identity Law}
+    \choice[correct]{Distributive Law}
+\end{multipleChoice}
+\end{problem}
+
+
+\begin{problem}
+    $(-2)(31-5)=(\answer{-2})\cdot 31+(-2)\cdot (\answer{-5})$
+\begin{hint}
+Please, use Distributive Law
+\end{hint}
+\end{problem}
+
+\section*{Order of Operations}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,20)
+c=randint(0,10)
+d=randint(0,20)
+\end{sagesilent}
+$\sage{a}-\sage{b}=\answer{\sage{a-b}} $
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,20)
+c=randint(0,10)
+d=randint(0,20)
+\end{sagesilent}
+$\sage{a}-\sage{b}=\answer{\sage{a-b}} $
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,20)
+c=randint(0,10)
+d=randint(0,20)
+g=randint(1,5)
+\end{sagesilent}
+$ \sage{a} + (\sage{b} \times \sage{c}^{\sage{g}} + \sage{d}) =\answer{\sage{a+(b*c^g+d)}} $
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,20)
+c=randint(0,10)
+d=randint(0,20)
+g=randint(1,5)
+\end{sagesilent}
+$ \sage{a} + (\sage{b} \times \sage{c}^{\sage{g}} + \sage{d}) =\answer{\sage{a+(b*c^g+d)}} $
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,20)
+c=randint(0,10)
+d=randint(0,20)
+g=randint(1,5)
+\end{sagesilent}
+$ \sage{a} -(\sage{b} \times \sage{c}^{\sage{g}} + \sage{d}) =\answer{\sage{a-(b*c^g+d)}} $
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,20)
+c=randint(0,10)
+d=randint(0,20)
+g=randint(1,5)
+\end{sagesilent}
+$ \sage{a} - (\sage{b} \times \sage{c}^{\sage{g}} + \sage{d}) =\answer{\sage{a-(b*c^g+d)}} $
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,20)
+c=randint(0,10)
+d=randint(0,20)
+g=randint(1,5)
+\end{sagesilent}
+$ \sage{a} + (\sage{b} \times \sage{c}^{\sage{g}} - \sage{d}) =\answer{\sage{a+(b*c^g-d)}} $
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,20)
+c=randint(0,10)
+d=randint(0,20)
+g=randint(1,5)
+\end{sagesilent}
+$ \sage{a} - (-\sage{b} \times \sage{c}^{\sage{g}} + \sage{d}) =\answer{\sage{a-(-b*c^g+d)}} $
+\end{problem}
+
+
+\begin{problem}
+$368\times 5 \div 10 \times 2\div 8=\answer{\sage{368*5/10*2/8}}$.
+\end{problem}
+
+
+\begin{problem}
+$2\cdot(53-3^4)-(2\cdot 18\div 12+2)=\answer{\sage{2*(53-3^4)-(2*18/12+2)}}$.
+
+\end{problem}
+
+
+
+\begin{problem}
+$ 7 + (6 \times 5^2 + 3) =\answer{\sage{7+(6*5^2+3)}} $
+\end{problem}
+
+\section*{Algebraic Expressions}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,100)
+c=randint(0,100)
+\end{sagesilent}
+Distribute $\sage{a}\cdot (\sage{b}x+\sage{c})=\answer{\sage{a*(b*x+c)}}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,100)
+c=randint(0,100)
+\end{sagesilent}
+Distribute $-\sage{a}\cdot (\sage{b}x+\sage{c})=\answer{\sage{-a*(b*x+c)}}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,100)
+c=randint(0,100)
+\end{sagesilent}
+Distribute $-\sage{a}\cdot (-\sage{b}x+\sage{c})=\answer{\sage{-a*(-b*x+c)}}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,100)
+c=randint(0,100)
+\end{sagesilent}
+Distribute $-\sage{a}\cdot (\sage{b}x-\sage{c})=\answer{\sage{-a*(b*x-c)}}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,10)
+b=randint(0,100)
+c=randint(0,100)
+\end{sagesilent}
+Distribute $-\sage{a}\cdot (-\sage{b}x-\sage{c})=\answer{\sage{-a*(-b*x-c)}}$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+y=var('y')
+a=randint(0,100)
+b=randint(0,100)
+c=randint(0,100)
+d=randint(0,100)
+\end{sagesilent}
+Simplify $\sage{a}x+\sage{b}y-\sage{c}x-\sage{d}y=\answer{\sage{a*x+b*y-c*x-d*y}}$
+
+\begin{hint}
+\item[(1)] Use Commutativity to bring the like terms together, 
+\item[(3)] Next, use Associativity to put the like terms in the same paranthesis 
+\item[(3)] Finally, use Distributivity to add the coefficients of the like terms.
+\end{hint}
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+y=var('y')
+a=randint(0,100)
+b=randint(0,100)
+c=randint(0,100)
+d=randint(0,100)
+\end{sagesilent}
+Simplify $\sage{a}x-\sage{b}y-\sage{c}x-\sage{d}y=\answer{\sage{a*x-b*y-c*x-d*y}}$
+
+\begin{hint}
+\item[(1)] Use Commutativity to bring the like terms together, 
+\item[(3)] Next, use Associativity to put the like terms in the same paranthesis 
+\item[(3)] Finally, use Distributivity to add the coefficients of the like terms.
+\end{hint}
+
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+y=var('y')
+a=randint(0,100)
+b=randint(0,100)
+c=randint(0,100)
+d=randint(0,100)
+\end{sagesilent}
+Simplify $\sage{a}x^2+\sage{b}x-\sage{c}x-\sage{d}x^2=\answer{\sage{a*x^2+b*x-c*x-d*x^2}}$
+
+\begin{hint}
+\item[(1)] Use Commutativity to bring the like terms together, 
+\item[(3)] Next, use Associativity to put the like terms in the same paranthesis 
+\item[(3)] Finally, use Distributivity to add the coefficients of the like terms.
+\end{hint}
+
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,100)
+b=randint(0,100)
+c=randint(0,100)
+d=randint(0,10)
+\end{sagesilent}
+Simplify $-(\sage{a}x^2+\sage{b})=\answer{\sage{-(a*x^2+b)}}$
+
+\begin{hint}
+Use Distributivity to get rid of the paranthesis
+\end{hint}
+
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,100)
+b=randint(0,100)
+c=randint(0,10)
+d=randint(0,100)
+\end{sagesilent}
+Simplify $-\sage{c}(\sage{a}x^2-\sage{b})=\answer{\sage{-c*(a*x^2-b)}}$
+
+\begin{hint}
+Use Distributivity to get rid of the paranthesis
+\end{hint}
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,100)
+b=randint(0,100)
+c=randint(0,10)
+d=randint(0,100)
+\end{sagesilent}
+Simplify $x(\sage{a}x^2-\sage{b})=\answer{\sage{expand(x*(a*x^2-b))}}$
+
+\begin{hint}
+Use Distributivity to get rid of the paranthesis
+\end{hint}
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(0,100)
+b=randint(0,100)
+c=randint(0,10)
+d=randint(0,100)
+\end{sagesilent}
+Simplify $-x(\sage{a}x^2-\sage{b})=\answer{\sage{expand(-x*(a*x^2-b))}}$
+
+\begin{hint}
+Use Distributivity to get rid of the paranthesis
+\end{hint}
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(1,5)
+b=randint(1,5)
+c=randint(0,10)
+d=randint(0,100)
+\end{sagesilent}
+Simplify $(\sage{a}x)^{\sage{b}}=\answer{\sage{expand((a*x)^b)}}$
+
+\begin{hint}
+Use the definition of the exponent $a^k=a\cdot a\cdot \ldots \cdot a$ (multiply by itself k times.)
+\end{hint}
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(1,5)
+b=randint(1,5)
+c=randint(0,10)
+d=randint(0,100)
+\end{sagesilent}
+Simplify $-(-\sage{a}x)^{\sage{b}}=\answer{\sage{expand(-(-a*x)^b)}}$
+
+\begin{hint}
+Use the definition of the exponent $a^k=a\cdot a\cdot \ldots \cdot a$ (multiply by itself k times.)
+\end{hint}
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=randint(1,5)
+b=randint(1,5)
+c=randint(0,10)
+d=randint(0,100)
+\end{sagesilent}
+Simplify $(-\sage{a}x)^{\sage{b}}=\answer{\sage{expand((-a*x)^b)}}$
+
+\begin{hint}
+Use the definition of the exponent $a^k=a\cdot a\cdot \ldots \cdot a$ (multiply by itself k times.)
+\end{hint}
+\end{problem}
+
+
+
+
+
+\end{document}
