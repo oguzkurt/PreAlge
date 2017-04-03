@@ -1,0 +1,477 @@
+\documentclass{ximera}
+\input{../preamble.tex}
+\title{Decimals\\ Homework 5}
+\author{Oguz Kurt}
+\begin{abstract}
+    Calculate decimals from fractions and vice versa.
+\end{abstract}
+
+\outcome{Identify, distinguish natural, whole numbers and integers.}
+\outcome{Use natural, whole numbers and integers in operations.}
+\outcome{Learn the impact of different operations on natural, whole numbers and integers.}
+
+\begin{document}
+\maketitle
+
+
+%\begin{shuffle}[1]
+
+\begin{problem}
+Write the following expression as a decimal:
+\begin{sagesilent}
+a=5
+b=8
+\end{sagesilent}
+\begin{prompt}
+$$\frac{\sage{a}}{\sage{b}}=\answer{\sage{(a/b).n()}}$$
+\end{prompt}
+\end{problem}
+
+
+\begin{problem}
+Write the following expression as a decimal:
+\begin{sagesilent}
+a=51
+b=5
+\end{sagesilent}
+\begin{prompt}
+$$\frac{\sage{a}}{\sage{b}}=\answer{\sage{(a/b).n()}}$$
+\end{prompt}
+\end{problem}
+
+
+
+
+\begin{problem}
+Write the following expression as a decimal:
+\begin{sagesilent}
+a=1512
+b=15
+\end{sagesilent}
+\begin{prompt}
+$$\frac{\sage{a}}{\sage{b}}=\answer{\sage{(a/b).n()}}$$
+\end{prompt}
+\end{problem}
+
+
+
+\begin{problem}
+Write the following expression as a decimal:
+\begin{sagesilent}
+a=7*1134
+b=7*25
+\end{sagesilent}
+\begin{prompt}
+$$\frac{\sage{a}}{\sage{b}}=\answer{\sage{(a/b).n()}}$$
+\end{prompt}
+\end{problem}
+
+
+
+\begin{problem}
+Write the following expression as a decimal:
+\begin{sagesilent}
+a=3*111
+b=3*128
+\end{sagesilent}
+\begin{prompt}
+$$\frac{\sage{a}}{\sage{b}}=\answer{\sage{(a/b).n()}}$$
+\end{prompt}
+\end{problem}
+
+
+
+\begin{problem}
+Write the following expression as a decimal. Make sure that the first box is the integer part and the second box is the repeating decimal. Your answer should complete to the form $$INTEGER.\overline{RepeatingDigits}$$
+\begin{sagesilent}
+a=111
+b=11
+\end{sagesilent}
+\begin{prompt}
+$$\frac{\sage{a}}{\sage{b}}=\sage{(a/b).n()}=\answer{\sage{floor(a/b)}}.\overline{\answer{09}}$$
+\end{prompt}
+\end{problem}
+
+
+\begin{problem}
+Write the following expression as a decimal. Make sure that the first box is the integer part and the second box is the nonrepeating digits and last box is the repeating digits. Your answer should complete to the form $$INTEGER.NonrepeatingDigits\overline{RepeatingDigits}$$
+\begin{sagesilent}
+a=9
+b=13
+c=45
+if a>=0:
+    d=a+b/10^(floor(log(b,10))+1)+c/(10^(floor(log(b,10))+1)*(10^(floor(log(c,10))+1)-1))
+else:
+    d=-(-a+b/10^(floor(log(b,10))+1)+c/(10^(floor(log(b,10))+1)*(10^(floor(log(c,10))+1)-1)))
+\end{sagesilent}
+\begin{prompt}
+$$\sage{d}=\answer{\sage{a}}.\answer{\sage{b}}\overline{\answer{\sage{c}}}$$
+\end{prompt}
+\end{problem}
+
+\begin{problem}
+Write the following expression as a decimal. Make sure that the first box is the integer part and the second box is the nonrepeating digits and last box is the repeating digits. Your answer should complete to the form $$INTEGER.NonrepeatingDigits\overline{RepeatingDigits}$$
+\begin{sagesilent}
+a=-2
+b=131
+c=3
+if a>=0:
+    d=a+b/10^(floor(log(b,10))+1)+c/(10^(floor(log(b,10))+1)*(10^(floor(log(c,10))+1)-1))
+else:
+    d=-(-a+b/10^(floor(log(b,10))+1)+c/(10^(floor(log(b,10))+1)*(10^(floor(log(c,10))+1)-1)))
+\end{sagesilent}
+\begin{prompt}
+$$\sage{d}=\answer{\sage{a}}.\answer{\sage{b}}\overline{\answer{\sage{c}}}$$
+\end{prompt}
+\end{problem}
+
+
+
+\begin{problem}
+Write the following expression as a decimal. Make sure that the first box is the integer part and the second box is the nonrepeating digits and last box is the repeating digits. Your answer should complete to the form $$INTEGER.NonrepeatingDigits\overline{RepeatingDigits}$$
+\begin{sagesilent}
+a=-5
+b=111
+c=43
+if a>=0:
+    d=a+b/10^(floor(log(b,10))+1)+c/(10^(floor(log(b,10))+1)*(10^(floor(log(c,10))+1)-1))
+else:
+    d=-(-a+b/10^(floor(log(b,10))+1)+c/(10^(floor(log(b,10))+1)*(10^(floor(log(c,10))+1)-1)))
+\end{sagesilent}
+\begin{prompt}
+$$\sage{d}=\answer{\sage{a}}.\answer{\sage{b}}\overline{\answer{\sage{c}}}$$
+\end{prompt}
+\end{problem}
+
+\begin{problem}
+Convert the following decimal to a fraction.
+
+\begin{prompt}
+    $$3.72=\answer{\sage{372/100}}$$
+\end{prompt}
+\end{problem}
+
+
+\begin{problem}
+Convert the following decimal to a fraction.
+
+\begin{prompt}
+    $$-0.08540=\answer{\sage{-854/10000}}$$
+\end{prompt}
+\end{problem}
+
+
+\begin{problem}
+Convert the following decimal to a fraction.
+\begin{sagesilent}
+a=5
+b=23
+\end{sagesilent}
+\begin{prompt}
+    $$\sage{a}.\overline{\sage{b}}=\answer{\sage{(a+b/(10^(floor(log(b,10)+1))-1))}}$$
+\end{prompt}
+\end{problem}
+
+
+\begin{problem}
+Convert the following decimal to a fraction.
+\begin{sagesilent}
+a=15
+b=783
+\end{sagesilent}
+\begin{prompt}
+    $$\sage{a}.\overline{\sage{b}}=\answer{\sage{(a+b/(10^(floor(log(b,10)+1))-1))}}$$
+\end{prompt}
+\end{problem}
+
+\begin{problem}
+Convert the following decimal to a fraction.
+\begin{sagesilent}
+a=-23
+b=19
+\end{sagesilent}
+\begin{prompt}
+    $$\sage{a}.\overline{\sage{b}}=\answer{\sage{-(-a+b/(10^(floor(log(b,10)+1))-1))}}$$
+\end{prompt}
+\end{problem}
+
+\begin{problem}
+Convert the following decimal to a fraction.
+\begin{sagesilent}
+a=23
+b=19
+c=2
+if a>=0:
+    d=a+b/(10^(floor(log(b,10)+1)))+c/((10^(floor(log(b,10))+1))*(10^(floor(log(c,10))+1)-1))
+else:
+    d=-(-a+b/(10^(floor(log(b,10)+1)))+c/((10^(floor(log(b,10))+1))*(10^(floor(log(c,10))+1)-1)))
+\end{sagesilent}
+\begin{prompt}
+    $$\sage{a}.\sage{b}\overline{\sage{c}}=\answer{\sage{d}}$$
+\end{prompt}
+\end{problem}
+
+
+\begin{problem}
+Convert the following decimal to a fraction.
+\begin{sagesilent}
+a=33
+b=0
+q=2
+c=21
+if a>=0:
+    d=a+b/(10^(q))+c/((10^(q))*(10^(floor(log(c,10))+1)-1))
+else:
+    d=-(-a+b/(10^(q))+c/((10^(q))*(10^(floor(log(c,10))+1)-1)))
+\end{sagesilent}
+
+
+\begin{prompt}
+    $$\sage{a}.00\overline{\sage{c}}=\answer{\sage{d}}$$
+\end{prompt}
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=0.33
+b=10.29
+\end{sagesilent}
+$$\sage{round(a,2)}+\sage{round(b,2)}=\answer{\sage{a+b}}$$
+
+$$\sage{round(a,2)}-\sage{round(b,2)}=\answer{\sage{a-b}}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+a=32.235
+k=3
+b=35.53
+l=2
+\end{sagesilent}
+$$\sage{round(a,k)}+\sage{round(b,l)}=\answer{\sage{a+b}}$$
+
+$$\sage{round(a,k)}-\sage{round(b,l)}=\answer{\sage{a-b}}$$
+\end{problem}
+
+
+\begin{problem} Simplify the following expressions:
+\begin{sagesilent}
+a=-21.09
+k=2
+b=35.5
+l=1
+\end{sagesilent}
+$$\sage{round(a,k)}+\sage{round(b,l)}=\answer{\sage{a+b}}$$
+
+$$\sage{round(a,k)}-\sage{round(b,l)}=\answer{\sage{a-b}}$$
+\end{problem}
+
+
+\begin{problem} Simplify the following expressions:
+\begin{sagesilent}
+a=21.09
+k=2
+b=100
+\end{sagesilent}
+$$\sage{b}\cdot \sage{round(a,k)}=\answer{\sage{a*b}}$$
+
+$$\frac{\sage{round(a,k)}}{\sage{b}}=\answer{\sage{a/b}}$$
+\end{problem}
+
+
+\begin{problem} Simplify the following expressions:
+\begin{sagesilent}
+a=-124.2309
+k=4
+b=1000
+\end{sagesilent}
+$$\sage{b}\cdot \sage{round(a,k)}=\answer{\sage{a*b}}$$
+
+$$\frac{\sage{round(a,k)}}{\sage{b}}=\answer{\sage{a/b}}$$
+\end{problem}
+
+\begin{problem} Convert from percent to decimal:
+\begin{sagesilent}
+p=21
+\end{sagesilent}
+$$\sage{p}\%=\answer{\sage{p/100}}$$
+
+\end{problem}
+
+
+
+\begin{problem} Convert from percent to decimal:
+\begin{sagesilent}
+p=146
+\end{sagesilent}
+$$\sage{p}\%=\answer{\sage{p/100}}$$
+\end{problem}
+
+
+\begin{problem} Convert from percent to decimal:
+\begin{sagesilent}
+p=2
+\end{sagesilent}
+$$\sage{p}\%=\answer{\sage{p/100}}$$
+
+\end{problem}
+
+
+\begin{problem} Convert from percent to decimal:
+\begin{sagesilent}
+p=33.3
+k=1
+\end{sagesilent}
+$$\sage{round(p,k)}\%=\answer{\sage{p/100}}$$
+\end{problem}
+
+
+\begin{problem} Convert from percent to decimal:
+\begin{sagesilent}
+p=3.53
+k=2
+\end{sagesilent}
+$$\sage{round(p,k)}\%=\answer{\sage{p/100}}$$
+\end{problem}
+
+
+\begin{problem} Convert from decimal to percent:
+\begin{sagesilent}
+p=0.53
+k=2
+\end{sagesilent}
+$$\sage{round(p,k)}=\answer{\sage{p*100}}\%$$
+\end{problem}
+
+
+\begin{problem} Convert from decimal to percent:
+\begin{sagesilent}
+p=0.05
+k=2
+\end{sagesilent}
+$$\sage{round(p,k)}=\answer{\sage{p*100}}\%$$
+\end{problem}
+
+
+\begin{problem} Convert from decimal to percent:
+\begin{sagesilent}
+p=199
+\end{sagesilent}
+$$\sage{p}=\answer{\sage{p*100}}\%$$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+p=0.53
+k=2
+r=1
+\end{sagesilent}
+Round the given number to $\sage{r}$ decimal places.
+$$\sage{round(p,k)}=\answer{\sage{round(p,r)}}$$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+p=-5.3456
+k=4
+r=2
+\end{sagesilent}
+Round the given number to $\sage{r}$ decimal places.
+$$\sage{round(p,k)}=\answer{\sage{round(p,r)}}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p=-0.29995
+k=5
+r=3
+\end{sagesilent}
+Round the given number to $\sage{r}$ decimal places.
+$$\sage{round(p,k)}=\answer{\sage{round(p,r)}}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p=0.25
+k=2
+r=0
+\end{sagesilent}
+Round the given number to $\sage{r}$ decimal places.
+$$\sage{round(p,k)}=\answer{\sage{round(p,r)}}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p=234/7
+r=5
+\end{sagesilent}
+Round the given number to $\sage{r}$ decimal places.
+$$\sage{p}=\answer{\sage{round(p,r)}}$$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+p=sqrt(123)
+r=2
+\end{sagesilent}
+Round the given number to $\sage{r}$ decimal places.
+$$\sage{p}=\answer{\sage{round(p,r)}}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p=pi
+r=4
+\end{sagesilent}
+Round the given number to $\sage{r}$ decimal places.
+$$\sage{p}=\answer{\sage{round(p,r)}}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p=pi
+r=2
+\end{sagesilent}
+Round the given number to $\sage{r}$ decimal places.
+$$5\sage{p}=\answer{\sage{round(5*p,r)}}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p=11/3
+r=2
+\end{sagesilent}
+Round the given number to $\sage{r}$ decimal places.
+$$\sage{p}=\answer{\sage{round(p,r)}}$$
+\end{problem}
+
+
+
+\end{document}
+
+
+\begin{problem}
+Convert the following decimal to a fraction.
+\begin{sagesilent}
+a=23
+b=19
+c=2
+if a>=0:
+    d=a+b/(10^(floor(log(b,10)+1)))+c/((10^(floor(log(b,10))+1))*(10^(floor(log(c,10))+1)-1))
+else:
+    d=-(-a+b/(10^(floor(log(b,10)+1)))+c/((10^(floor(log(b,10))+1))*(10^(floor(log(c,10))+1)-1)))
+\end{sagesilent}
+\begin{prompt}
+    $$\sage{a}.\sage{b}\overline{\sage{c}}=\answer{\sage{d}}$$
+\end{prompt}
+\end{problem}
+
+\end{document}
