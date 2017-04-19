@@ -1,0 +1,158 @@
+\documentclass{ximera}
+\input{../preamble.tex}
+\title{Exponents\\ Homework 6}
+\author{Oguz Kurt}
+\begin{abstract}
+    Add, subtract, multiply, divide polynomials.
+\end{abstract}
+
+\outcome{Identify, distinguish natural, whole numbers and integers.}
+\outcome{Use natural, whole numbers and integers in operations.}
+\outcome{Learn the impact of different operations on natural, whole numbers and integers.}
+
+\begin{document}
+\maketitle
+
+\section*{Syntax}
+To enter {\Large $a^b$}, you need to use {\Large \color{red}\verb|a^b|}.
+
+\section*{Exponential Laws}
+
+\begin{itemize}
+    \item For $n>0$, $a^n=\underbrace{a\cdot a \cdot \ldots \cdot a}_{Multiply~ n ~times} $
+    \begin{example}
+        $2^5=\answer{32}$
+    \end{example}
+    \item For $a\neq 0$, $a^0=1$
+    \begin{example}
+        $5^0=\answer{1}$
+    \end{example}
+    \item $a^n\cdot a^m=a^{n+m}$
+    \begin{example}
+        $3^4\cdot 3^3=3^{\answer{7}}=\answer{\sage{3^7}}$
+    \end{example}
+
+    \item $\left(a^n\right)^m=a^{n\cdot m}$
+    \begin{example}
+        $\left(2^5\right)^2=2^{\answer{10}}=\answer{1024}$    
+    \end{example}
+    \item $a^n\cdot b^n =(a\cdot b)^n$
+    \begin{example}
+        $2^7\cdot 5^7=\answer{10}^{\answer{7}}=\answer{\sage{10^7}}$
+    \end{example}
+    \item $a^{-1}=\frac{1}{a}$
+    \begin{example}
+        $4^{-1}=\answer{\frac{1}{4}}$
+    \end{example}
+    \begin{example}
+        $3^{-4}=(3^4)^{\answer{-1}}=\frac{1}{\answer{81}}$
+    \end{example}
+    \item $\frac{a^n}{a^m}=a^{n-m}$
+    \begin{example}
+        $\frac{7^9}{7^3}=\left(\answer{7}\right)^{\answer{9-3}}=\answer{\sage{7^6}}$
+    \end{example}
+    \item $\frac{a^n}{b^n}=\left( \frac{a}{b}\right)^n$
+    \begin{example}
+        $\frac{6^9}{2^9}=\left(\answer{\frac{6}{2}}\right)^{\answer{9}}=\answer{\sage{3^9}}$    
+    \end{example}
+\end{itemize}
+
+
+%\begin{shuffle}[1]
+\begin{problem}
+$2^3 \cdot 2^8 =\answer{\sage{2^11}} $
+\end{problem}
+
+\begin{problem}
+$5^3 \cdot 5^8 \cdot 5 = \answer{\sage{5^12}} $ 
+\end{problem}
+
+\begin{problem}
+$(a^3 b^2)(a^3 b^5) = a^{\answer{6}}\cdot b^{\answer{7}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle \frac{x^8}{x^2} = x^{\answer{6}} $
+\end{problem}
+
+\begin{problem}
+$\displaystyle \frac{7^9}{7^7} = \answer{7}^{\answer{2}}=\answer{49} $
+\end{problem}
+
+\begin{problem}
+ $\displaystyle \frac{4p^5q^7}{6p^2q} = \answer{4/6}\cdot p^{\answer{5-2}} \cdot q^{\answer{7-1}} $
+\end{problem}
+
+\begin{problem}
+ $1948^0 = \answer{1}$ 
+\end{problem}
+
+\begin{problem}
+ $(-9)^0 = \answer{1}$ 
+\end{problem}
+
+\begin{problem}
+$-9^0 = \answer{-1}$ 
+\end{problem}
+
+\begin{problem}
+$(2^3)^4 = \answer{2}^{\answer{12}}$
+\end{problem}
+
+\begin{problem}
+$(m^2)^5 = m^{\answer{10}}$ 
+\end{problem}
+
+\begin{problem}
+$(3a)^4 = \answer{81}\cdot a^{\answer{4}}$
+\end{problem}
+
+\begin{problem}
+$(-5x^4)^2 = \answer{25}\cdot x^{\answer{8}}$ 
+\end{problem}
+
+\begin{problem}
+$(a^7 b)^2(a^3 b^4) = a^{\answer{17}}\cdot b^{\answer{6}}$
+\end{problem}
+
+{\color{red} {\bf WARNING!!!} Rule applies to products, not sums or differences:
+$$ (5 + x)^2 \neq 5^2 + x^2 $$
+}
+
+\begin{problem}
+$\displaystyle \left(\frac{x}{5} \right )^2 = \frac{\answer{x^2}}{\answer{25}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle\left(\frac{5}{a^4} \right )^3 = \frac{\answer{125}}{\answer{a^{12}}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle\left(\frac{3a^4}{b^3} \right )^2 = \frac{\answer{9a^8}}{\answer{b^6}}=\answer{9}\cdot a^{\answer{8}}\cdot b^{\answer{-6}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle m^{-3}= \frac{\answer{1}}{\answer{m^3}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle (-3)^{-2}= \answer{\frac{1}{9}}$
+\end{problem}
+
+\begin{problem}
+$a b^{-1} = \answer{\frac{a}{b}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle t^5 \cdot t^{-2} = t^{\answer{3}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle (5x^2y^{-3})^{4}= \answer{5^4}\cdot x^{\answer{8}}\cdot y^{\answer{-12}}=\frac{\answer{625x^8}}{\answer{y^{12}}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle \frac{-10 x^{-3}y}{5x^2y^5} = \answer{-2}\cdot x^{\answer{-5}}\cdot y^{\answer{-4}}=\frac{\answer{-2}}{\answer{x^5y^4}}$
+\end{problem}
+
+\end{document}
