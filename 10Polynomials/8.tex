@@ -1,0 +1,360 @@
+\documentclass{ximera}
+\input{../preamble.tex}
+\title{Polynomial Operations \\ Homework 8}
+\author{Oguz Kurt}
+\begin{abstract}
+    Addition, Subtraction, Multiplication and Division of polynomials studied!
+\end{abstract}
+\usepackage{booktabs}
+
+\newcommand*{\Ph}{\hphantom{{}+{}}}%
+\begin{document}
+\maketitle
+
+\begin{problem}
+\begin{sagesilent}
+p=-x^2+3*x+9
+q=-2
+\end{sagesilent}
+ Evaluate $\sage{p}$ for $x = \sage{q}$. $Value=\answer{\sage{p(q)}}$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+t=var('t')
+p=t^2-5*t^5+9-4*t^3
+q=0
+\end{sagesilent}
+ Evaluate $\sage{p}$ for $t= \sage{q}$. $Value=\answer{\sage{p(q)}}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+t=var('t')
+p=t^2-5*t^5+9-4*t^3
+q=1
+\end{sagesilent}
+ Evaluate $\sage{p}$ for $t= \sage{q}$. $Value=\answer{\sage{p(q)}}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+t=var('t')
+p=t^2-5*t^5+9-4*t^3
+q=-1
+\end{sagesilent}
+ Evaluate $\sage{p}$ for $t= \sage{q}$. $Value=\answer{\sage{p(q)}}$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p=3+5*x
+q=8*x
+\end{sagesilent}
+True or False: $\sage{p}=\sage{q}$
+\begin{multipleChoice}
+    \choice{True}
+    \choice[correct]{False}
+\end{multipleChoice}
+\end{problem}
+
+
+
+\begin{problem}
+\begin{sagesilent}
+p=3*x^2+5*x
+q=8*x^3
+\end{sagesilent}
+True or False: $\sage{p}=\sage{q}$
+\begin{multipleChoice}
+    \choice{True}
+    \choice[correct]{False}
+\end{multipleChoice}
+\end{problem}
+
+
+
+\begin{problem}
+\begin{sagesilent}
+p=3*x+5*x
+q=8*x
+\end{sagesilent}
+True or False: $3x+5x=\sage{q}$
+\begin{multipleChoice}
+    \choice[correct]{True}
+    \choice{False}
+\end{multipleChoice}
+\end{problem}
+
+\begin{problem}
+Combine the like terms:
+
+\begin{enumerate}
+    \item $7x^3 - 5x^2 + 9x^3 + x^2 = \answer{\sage{7*x^3 - 5*x^2 + 9*x^3 + x^2}} $
+    \item $\displaystyle \frac{2}{3} x^4 - x^3 - \frac{1}{6} x^4 + \frac{2}{5} x^3 - \frac{3}{10} x^3 = \answer{\sage{2/3*x^4 - x^3 - 1/6*x^4 + 2/5*x^3 - 3/10*x^3}} $
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Add or subtract:
+
+\begin{enumerate}
+    \item $(-5x^3 + 6x -1) + (4x^3 + 3x^2 + 2)
+    =\answer{0}\cdot x^4+\answer{-1}\cdot x^3+\answer{3}\cdot x^2+\answer{6}\cdot x+\answer{1}
+    \\=\answer{\sage{(-5*x^3 + 6*x -1) + (4*x^3 + 3*x^2 + 2)}}
+    $
+    \item $\displaystyle( \frac{2}{3} x^4 + 3x^2 - 7x + \frac{1}{2}) + ( - \frac{1}{3} x^4 + 5x^3 - 3x^2 + 3x - \frac{1}{2}) 
+    =\answer{1/3}\cdot x^4+\answer{5}\cdot x^3+\answer{0}\cdot x^2+\answer{-4}\cdot x+\answer{0}
+    \\= \answer{\sage{( 2/3*x^4 + 3*x^2 - 7*x + 1/2) + ( -1/3*x^4 + 5*x^3 - 3*x^2 + 3*x - 1/2) }} $
+    \item $(9x^5 + x^3 - 2x^2 + 4) - (-2x^5 + x^4 -4x^3 -3x^2) 
+        =\answer{0}\cdot x^6+\answer{11}\cdot x^5+\answer{-1}\cdot x^4+\answer{5}\cdot x^3+\answer{1}\cdot x^2+\answer{0}\cdot x+\answer{4}
+        \\= \answer{\sage{(9*x^5 + x^3 - 2*x^2 + 4) - (-2*x^5 + x^4 -4*x^3 -3*x^2)}}$
+    \item $(7x^5 + x^3 - 9x) - (3x^5 - 4x^3 + 5) 
+    =\answer{4}\cdot x^5+\answer{0}\cdot x^4+\answer{5}\cdot x^3+\answer{0}\cdot x^2+\answer{-9}\cdot x+\answer{-5}
+    \\= \answer{\sage{(7*x^5 + x^3 - 9*x) - (3*x^5 - 4*x^3 + 5)}}
+    $
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+$(5x)\cdot (6x) = \answer{30x^2}$
+\end{problem}
+
+\begin{problem}
+$(-x)(3x) = \answer{-3x^2} $
+\end{problem}
+
+\begin{problem}
+$(7x^5)(-3x^4) = \answer{-21x^9}$
+\end{problem}
+
+\begin{problem}
+$ x\cdot (x+3) = \answer{x^2+3x}$
+\end{problem}
+
+\begin{problem}
+$5x(2x^2 - 3x +4) = \answer{10x^3-15x^2+20x}$
+\end{problem}
+
+\begin{problem}
+$2 x^2  (x^3 - 7x^2 + 10x -4) =  \answer{2x^5-14x^4+20x^3-8x^2}$
+\end{problem}
+
+\begin{problem}
+$ (x+5) \cdot (x+3) = \answer{x^2+8x+15}$
+\end{problem}
+
+\begin{problem}
+$(4x-3)(x-2) = \answer{4x^2+6-11x}$
+\end{problem}
+
+\begin{problem}
+$(x^2 + 2x -3) (x + 4) =  \answer{\sage{(x^2 + 2*x -3)*(x + 4)}}$
+\end{problem}
+
+\begin{problem}
+$(x +8)(x^2+5)=\answer{x^3+8x^2+5x+40}$
+\end{problem}
+
+\begin{problem}
+$(x + 8)(x-8)=\answer{x^2-64}$
+\end{problem}
+
+\begin{problem}
+$(2x^3 + 5)(2x^3 - 5)=\answer{4x^6-25}$
+\end{problem}
+
+\begin{problem}
+$(x+7)^2=\answer{x^2+14x+49}$
+\end{problem}
+
+\begin{problem}
+$(t-5)^2 = \answer{t^2-10t+25}$
+\end{problem}
+
+\begin{problem}
+$(3a + 4)^2 = \answer{9a^2+24a+16}$
+\end{problem}
+
+\begin{problem}
+True or False: $ (5 + x)^2 = 5^2 + x^2 $
+\begin{multipleChoice}
+    \choice{True}
+    \choice[correct]{False}
+\end{multipleChoice}
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+p=4 + 3*x + x*y^2 + 8*x^3*y^3
+qx=-2
+qy=5
+\end{sagesilent}
+Evaluate the polynomial $\sage{p}$ for $x=\sage{qx}$ and $y=\sage{qy}$.
+$$Answer=\answer{\sage{p(qx,qy)}}$$
+Degree of the polynomial is $\answer{6}$.
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+p=-4 -30*x + 3*y^2 -10*x^2*y^3
+qx=1
+qy=-1
+\end{sagesilent}
+Evaluate the polynomial $\sage{p}$ for $x=\sage{qx}$ and $y=\sage{qy}$.
+$$Answer=\answer{\sage{p(qx,qy)}}$$
+Degree of the polynomial is $\answer{5}$
+\end{problem}
+
+
+\begin{problem}
+Combine the like terms: $9x^2y + 3xy^2 - 5x^2y - xy^2=\answer{\sage{9*x^2*y + 3*x*y^2 - 5*x^2*y - x*y^2}}$
+\end{problem}
+\begin{problem}
+\begin{sagesilent}
+a=var('a')
+b=var('b')
+\end{sagesilent}
+Add: $(5ab^2 - 4a^2b + 5a^3 + 2) + (3ab^2 - 2a^2b + 3a^3 - 5) =\answer{\sage{(5*a*b^2 - 4*a^2*b + 5*a^3 + 2) + (3*a*b^2 - 2*a^2*b + 3*a^3 - 5) }}$
+\end{problem}
+
+
+
+\begin{problem}
+Subtract: $(4x^2y + x^3y^2 + 3x^2y^3 + 6y)- (4x^2y - 6x^3y^2 + x^2y^2 - 5y) 
+=\answer{\sage{(4*x^2*y + x^3*y^2 + 3*x^2*y^3 + 6*y)- (4*x^2*y - 6*x^3*y^2 + x^2*y^2 - 5*y) }}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+\end{sagesilent}
+
+Multiply: $(3x^2y - 2xy + 3y)(xy + 2y)=\answer{\sage{(3*x^2*y - 2*x*y + 3*y)*(x*y + 2*y)}} $
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+\end{sagesilent}
+
+Multiply: $(3x^2y +2y)(3x^2y - 2y)=\answer{\sage{(3*x^2*y +2*y)*(3*x^2*y - 2*y)}}$
+\end{problem}
+
+
+
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+\end{sagesilent}
+Multiply: $(3x +2y)^2=\answer{9x^2+4y^2+12xy}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+\end{sagesilent}
+Multiply: $(2x + 3 - 2y)(2x + 3 + 2y) =\answer{\sage{(2*x + 3 - 2*y)*(2*x + 3 + 2*y)}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle \frac{15 x^{10}}{3 x^4} =\answer{5x^6}$
+\end{problem}
+
+\begin{problem}
+$$\displaystyle \frac{86x^5}{2x^3} = \answer{43x^2}$$
+\end{problem}
+
+\begin{problem}
+$\displaystyle \frac{80 x^{5} + 6 x^7}{2 x^3} =\answer{40x^2+3x^4}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle \frac{x^{4} + 15 x^3 - 6x^2}{3x} =\answer{x^3/3+5x^2-2x}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle (10a^5b^4 - 2a^3b^2 + 6 a^2b) \div (-2a^2b) =\answer{-5a^3b^3+ab-3}$
+\end{problem}
+
+\begin{problem}
+Write the division as an integer plus a fraction between 0 and 1: 
+$$85,582 \div 24 =\answer{\sage{floor(85582/24)}}+\frac{\answer{\sage{85582-floor(85582/24)*24}}}{24}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p(x)=(2*x^4 - 9*x^3 + 21*x^2 - 26*x + 12)
+q(x)=( 2*x-3 )
+s=p.maxima_methods().divide(q)
+\end{sagesilent}
+Write the division as a polynomial plus a fraction whose top polynomial has a degree less than $\sage{q(x)}$: 
+$$(\sage{p(x)})\div (\sage{q(x)}) =\answer{\sage{s[0]}} +\frac{\answer{\sage{s[1]}}}{\sage{q(x)}}
+$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p(x)=(x^3+1)
+q(x)=( x+1 )
+s=p.maxima_methods().divide(q)
+\end{sagesilent}
+Write the division as a polynomial plus a fraction whose top polynomial has a degree less than $\sage{q(x)}$: 
+$$(\sage{p(x)})\div (\sage{q(x)}) =\answer{\sage{s[0]}} +\frac{\answer{\sage{s[1]}}}{\sage{q(x)}}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p(x)=(2*x^2 + 5*x - 1)
+q(x)=( 2*x-1 )
+s=p.maxima_methods().divide(q)
+\end{sagesilent}
+Write the division as a polynomial plus a fraction whose top polynomial has a degree less than $\sage{q(x)}$: 
+$$(\sage{p(x)})\div (\sage{q(x)}) =\answer{\sage{s[0]}} +\frac{\answer{\sage{s[1]}}}{\sage{q(x)}}$$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+p(x)=(3*x^4 - 2*x^3 -6*x + 1)
+q(x)=( 2*x^2-1 )
+s=p.maxima_methods().divide(q)
+\end{sagesilent}
+Write the division as a polynomial plus a fraction whose top polynomial has a degree less than $\sage{q(x)}$: 
+$$(\sage{p(x)})\div (\sage{q(x)}) =\answer{\sage{s[0]}} +\frac{\answer{\sage{s[1]}}}{\sage{q(x)}}$$
+\end{problem}
+
+\end{document}
+
+
+\begin{javascript}
+  function isPositive(number) {
+    return number &gt; 0;
+  };
+ 
+  function sameParity(a,b) {
+    return (a-b)%2 == 0;
+  };
+ 
+  caseInsensitive = function(a,b) {
+    return a.toLowerCase() == b.toLowerCase();
+  };
+ 
+  sameDerivative = function(a,b) {
+    return a.derivative('x').equals( b.derivative('x') );
+  };
+\end{javascript}

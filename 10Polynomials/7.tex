@@ -1,0 +1,49 @@
+\documentclass{ximera}
+\input{../preamble.tex}
+\title{Scientific Notation\\ Homework 7}
+\author{Oguz Kurt}
+\begin{abstract}
+Conversion to Scientific Notation is studied!
+\end{abstract}
+
+\begin{document}
+\maketitle
+
+\section*{Syntax}
+To enter {\Large $a^b$}, you need to use {\Large \color{red}\verb|a^b|}.
+
+\section*{Scientific Notation}
+\begin{definition}
+    A number is given in scientific notation if it is represented as $$N\times 10^k$$ where $N$ is a number at least 1 but strictly less than 10.
+\end{definition}
+
+\begin{problem}
+Convert to decimal notation:
+\begin{enumerate}
+    \item $7.893 \times 10^5 = \answer{789300}$
+    \item $4.7 \times 10^{-8} = \answer[tolerance=0.0000000000000000001]{0.000000047} $
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Convert to scientific notation:
+\begin{enumerate}
+    \item $83,000 = \answer{8.3} \cdot 10^{\answer{4}}$
+    \item $ 0.0327 = \answer{3.27}\cdot 10^{\answer{-2}}$
+\end{enumerate}
+\end{problem}
+
+\begin{remark}
+To multiply or divide numbers in scientific notation, multiply or divide the decimal part as usual and apply the rules we learned above to the powers, and convert to scientific notation if necessary.
+\end{remark}
+
+\begin{problem}
+Multiply/Divide in scientific notation:
+
+\begin{enumerate}
+    \item $(1.8 \times 10^9) \cdot (2.3 \times 10^{-4}) = \answer{\sage{1.8*2.3}}\cdot 10^{\answer{5}}$
+    \item $(3.1 \times 10^5) \cdot (4.5 \times 10^{-3}) = \answer{\sage{3.1*4.5/10}}\cdot 10^{\answer{3}} $
+    \item $(3.41 \times 10^5) \div (1.1 \times 10^{-3}) = \answer{\sage{3.41/1.1}}\cdot 10^{\answer{2}} $
+\end{enumerate}
+\end{problem}
+\end{document}
