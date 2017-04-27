@@ -1,0 +1,728 @@
+\documentclass{ximera}
+\input{../preamble.tex}
+\title{Polynomial Factorization \\ Homework 9}
+\author{Oguz Kurt}
+\begin{abstract}
+    Factorize polynomials.
+\end{abstract}
+\usepackage{booktabs}
+
+\newcommand*{\Ph}{\hphantom{{}+{}}}%
+\begin{document}
+\maketitle
+\js{10+1}
+In this homework, we will introduce factorization which is the opposite of multiplication of polynomials. To be able to factor polynomials, you should have a very good understanding of the multiplications methods we learned previously. \\
+
+\section{Factorization}
+
+{\bf Factoring:} Finding an equivalent expression that is a product of polynomials. This equivalent expression is called factorization, each polynomial is called a factor. If a polynomial cannot be factorized, we say that the polynomial is prime.\\
+
+Remember that the same concept is discussed with numbers:\\
+
+\begin{problem}
+Factorize 120 into its prime factors.\\
+\end{problem}
+ 
+\subsection{Factoring monomials}
+
+To factor a monomial find two monomials whose product is equivalent to the original one. The answer might not be unique.\\
+
+\begin{problem} 
+Factorize $15 x^3$.\\
+\end{problem}
+
+ 
+\subsection{Factoring Polynomials Whose Terms Have a Common Factor}
+
+To factor a polynomial whose terms have a common factor, we factorize each term where each factor is that common factor. This is opposite of the product of a monomial and a polynomial where we used the distribution rule. \\
+
+{\bf Example:} Multiply $3(x + 2y -z)$.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $3x + 6y -3z $.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $10y + 15 $.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $8a -12$.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $24 x^5 + 30 x^2$.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $12 x^5 - 15 x^4 + 27 x^3$.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $8r^3s^2 + 16 r s^3$.\\
+\vspace{2 cm}
+
+\subsection{Factoring by Grouping}
+
+If not every term has a common factor, you can group the ones that have a common term and factor, and then see if there is a common factor between the groups. \\
+
+First solve the example below to see that common factors do not have be a monomial, they can have more than one term.\\
+
+{\bf Example:} Factorize $x^2(x+1) + 2(x+1)$.\\
+
+Note that the binomial $x+1$ is a factor of both $x^2(x+1)$ and $2(x+1)$.\\
+\vspace{2 cm}
+
+Now we can apply the idea of grouping:\\
+
+{\bf Example:} Factorize $5x^3 - x^2 + 15x -3$.\\
+
+Hint: Group the first two and the last two terms together.\\
+\vspace{3 cm}
+
+{\bf Example:} Factorize $2x^3 + 8x^2 + x +4$.\\
+\vspace{3 cm}
+
+{\bf Example:} Factorize $8x^4 - 28x^3 + 6x - 21$.\\
+\vspace{3 cm}
+
+You can still use the evaluation method to check if you did the factorization right.\\
+
+{\bf Example:} Check the factorization of $8x^4 - 28x^3 + 6x - 21$ above by evaluating at $x = 1$.\\
+\vspace{3 cm}
+
+
+ 
+\subsection{Factoring Trinomials}
+
+This is opposite of the FOIL method we learned in Chapter 4. \\
+
+{\bf Example:} Multiply $(x+2)(x+5)$.\\
+\vspace{2 cm}
+
+{\bf Example:} Multiply $(x-3)(x+7)$.\\
+\vspace{2 cm}
+
+{\bf Observations:}\\
+
+1) The product of two binomial is a trinomial.\\
+
+2) The coefficient of x is the sum of the constant terms of the binomials.\\
+
+3) The constant coefficient of the trinomail is the product of the constant terms of the binomials.\\
+
+Let's apply the observation to the question below:\\
+
+{\bf Example:} Factorize $x^2 + 7x +10$.\\
+
+1) The product of two binomial is a trinomial: $x^2 + 7x +10 = (x + p) (x + q)$ for some numbers p and q. \\
+
+2) The coefficient of x is the sum of the constant terms of the binomials: $ p + q = 7$.\\
+
+3) The constant coefficient of the trinomail is the product of the constant terms of the binomials: $ p \cdot q = 10$.\\
+
+Can you guess now what $p$ and $q$ are? Find two numbers so that when you multiply them you get 10, and when you add them you get 7: .................\\
+
+So the answer is $x^2 + 7x +10 = (x + .....) (x + .....)$\\
+
+\newpage
+{\bf Example:} Factorize $x^2 - 7x +10 $.\\
+\vspace{4 cm}
+
+{\bf Example:} Factorize $x^2 + 4x -21 $.\\
+\vspace{4 cm}
+
+{\bf Example:} Factorize $y^2 - 8y +12$.\\
+\vspace{4 cm}
+
+{\bf Example:} Factorize $a^2 + 4ab -21b^2 $.\\
+\vspace{4 cm}
+
+{\bf Example:} Factorize $x^2 -x +5$.\\
+\vspace{4 cm}
+
+{\bf What if there is a number in front of $x^2$?}\\
+
+{\bf Example:} Multiply $(2x+5)(3x+4)$.\\
+\vspace{2 cm}
+
+
+
+{\bf Observations:}\\
+
+1) The product of two binomial is a trinomial.\\
+
+2) The coefficient of $x^2$ of the trinomial is the product of the coefficient of first terms of the binomials.\\
+
+3) The constant coefficient of the trinomail is the product of the constant terms of the binomials.\\
+
+4) The sum of the inner and outer products of the binomials is the term with degree one of the trinomial.\\ 
+
+Let's apply the observation to the question below:\\
+
+{\bf Example:} Factorize $3x^2 - 10x -8 $.\\
+
+1) The product of two binomial is a trinomial: $3x^2 - 10x -8  = (...x + p) (...x + q)$ for some numbers p and q. \\
+
+2)  The coefficient of $x^2$ of the trinomial is the product of the coefficient of first terms of the binomials: $3x^2 - 10x -8  = (3x + p) (x + q)$.\\
+
+3) The constant coefficient of the trinomail is the product of the constant terms of the binomials: $ p \cdot q = -8 $.\\
+
+Can you guess what $p$ and $q$ should be? Find two numbers so that when you multiply them you get -8: -1, 8 or 1,-8 or -2, 4 or ................................................\\
+
+4) The sum of the inner and outer products of the binomials is the term with degree one of the trinomial: \\
+
+Trial 1: $(3x -1)(x+8) = 3x^2 + 23x - 8$  \hspace{2cm} Wrong choice since $23 \neq -10$\\
+
+Trial 2: $(3x +1)(x-8) = $...............................................................................\\
+
+Trial 3: ...............................................................................\\
+
+Trial 4: ...............................................................................\\
+
+Trial 5: ...............................................................................\\
+
+Trial 6: ...............................................................................\\
+
+Trial 7: ...............................................................................\\
+
+Trial 8: ...............................................................................\\
+
+So the answer is $3x^2 -10x -8 = (x + .....) (x + .....)$\\
+
+{\bf Hint:} If your choice let you a wrong answer just by a sign, change the signs of the numbers only.\\
+
+{\bf Example:} Factorize $2x^2 +7x -4 $.\\
+\vspace{4 cm}
+
+{\bf Example:} Factorize $4x^2 +12x +5 $.\\
+\vspace{4 cm}
+
+{\bf Example:} Factorize $6y^2 - 10y -4 $.\\
+\vspace{4 cm}
+
+{\bf Example:} Factorize $-2a^2 +15 +a $.\\
+\vspace{4 cm}
+
+{\bf Example:} Factorize $18x^3 +21x^2 -9x$.\\
+\vspace{4 cm}
+
+{\bf Example:} Factorize $2a^2 - 5ab + 2b^2$.\\
+\vspace{3 cm}
+
+
+
+\subsection{Factoring polynomials that fit into a formula}
+
+{\bf Review:} $(A-B)(A+B) = A^2 - B^2$\\
+
+$(A-B)^2 = A^2 -2AB + B^2$\\
+
+$(A+B)^2 = A^2 +2AB + B^2$\\
+
+
+{\bf Formulas to Factorize:} $A^2 - B^2 =(A-B)(A+B) $\\
+
+$A^2 -2AB + B^2 = (A-B)^2  $\\
+
+$A^2 +2AB + B^2 = (A+B)^2  $\\
+
+{\bf Study Skill:} You need to be able to recognize these forms to be able to factorize by using the formula!\\
+
+{\bf Example:} Factorize $x^2 + 6x + 9 $.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $t^2 -8t - 9$.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $16x^2 + 49 -56x$.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $9x^2 - 64$.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $25 - t^3$.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $-4x^{10} + 36$.\\
+\vspace{2 cm}
+
+\subsection{More Formulas for Sums and Differences of Cubes}
+
+{\bf Formulas to Factorize:} $A^3 - B^3 =(A-B)(A^2 + AB + B^2) $\\
+
+$A^3 + B^3 = (A+B)(A^2 -AB + B^2) $\\
+
+{\bf Study Skill:} You may need to memorize squares and cubes of some small numbers to be able to recognize these forms.\\
+
+{\bf Example:} Factorize $x^3 + 27 $.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $8y^3 - x^3$.\\
+\vspace{2 cm}
+
+{\bf Study Skill:} To factorize, follow these steps:\\
+
+1) First look for any common factor and take all out.\\
+
+2) Then look at the numbers and see if you can recognize one of the formulas:\\
+
+a) Two terms: $A^2 - B^2$ or  $A^3 - B^3$ or $A^3 + B^3$\\
+
+b) Three terms: $(A+B)^2$ or $(A-B)^2$ or inverse of FOIL.\\
+
+c) More terms: try grouping!\\
+
+3) Make sure everything is factored completely.\\
+
+4) Check answer by evaluating. \\
+
+{\bf Example:} Factorize $5x^4 - 80$.\\
+\vspace{3 cm}
+
+{\bf Example:} Factorize $2x^3 + 10x^2 + x + 5$.\\
+\vspace{3 cm}
+
+{\bf Example:} Factorize $-x^5 + 2x^4 + 35x^3$.\\
+\vspace{3 cm}
+
+{\bf Example:} Factorize $x^2 -20x + 100 $.\\
+\vspace{2 cm}
+
+{\bf Example:} Factorize $x^2y^2 + 7xy +12$.\\
+\vspace{3 cm}
+
+{\bf Example:} Factorize $x^4 - 16y^4$.\\
+\vspace{3 cm}
+
+\subsection{Combining two topics: Factorization and Solving Equations}
+
+{\bf Quadratic Equation:} $ax^2 + bx + c = 0$\\
+
+{\bf Principle of zero:} If product of two factors is zero, then at least one of the factors has to be zero!\\
+
+{\bf Example:} If $5 \cdot x = 0$, then what is x?\\
+
+{\bf Example:} If $ x \cdot y = 0$, then what can you say about x and y?\\
+
+So by using the principle of zero, we can solve equations by simply factorizing and setting each factor equal to zero and solving for x.\\
+
+Make sure you have all the terms on one side of the equation and have only zero on the other side of the equation.\\
+
+{\bf Example:} Solve $x^2 -8x +15 = 0$.\\
+\vspace{3 cm}
+
+{\bf Example:} Solve $6t^2 + t = 5$.\\
+\vspace{3 cm}
+
+{\bf Example:} Solve $4x + 6x^2 = 0$.\\
+\vspace{3 cm}
+
+{\bf Example:} Solve $25a^2 = 16$.\\
+\vspace{3 cm}
+
+{\bf Example:} Solve $m(m+5) = 14$.\\
+\vspace{3 cm}
+
+\subsection{Algebraic Applications}
+{\bf Example:} Simplify: $\displaystyle \frac{5x+5}{15x^2+5x}$.\\
+
+\vspace{3 cm}
+
+{\bf Example:} Simplify: $\displaystyle \frac{4x-8}{3x-6}$.\\
+
+\vspace{3 cm}
+
+{\bf Example:} Simplify: $\displaystyle \frac{x^2+2x-8}{x^2-4}$.\\
+
+\vspace{3 cm}
+
+{\bf Example:} Multiply and simplify: $\displaystyle \frac{3b^5}{14} \cdot \frac{7}{3b^2}$.\\
+
+\vspace{3 cm}
+
+{\bf Example:} Multiply and simplify: $\displaystyle \frac{x^2+4x+3}{x^2-4} \cdot \frac{x-2}{x+1}$.\\
+
+\vspace{4 cm}
+
+{\bf Example:} Multiply and simplify: $\displaystyle \frac{x}{9} \div \frac{x^2}{18}$.\\
+
+\vspace{3 cm}
+
+{\bf Example:} Multiply and simplify: $\displaystyle \frac{2y+8}{y} - \frac{8}{y}$.\\
+
+\vspace{3 cm}
+
+{\bf Example:} Multiply and simplify: $\displaystyle \frac{4x}{x-7} + \frac{3x-49}{x-7}$.\\
+
+\vspace{3 cm}
+
+{\bf Example:} Multiply and simplify: $\displaystyle \frac{2}{3x^2} - \frac{1}{4x}$.\\
+
+\vspace{3 cm}
+
+
+\subsection{Work Problems}
+
+Use the methods we learned before to translate the wording into math equations. Proceed as in the previous section to solve for the unknowns.\\
+
+
+{\bf Example:} The product of two consecutive negative integers is 1122. What are the numbers?\\
+\vspace{3 cm}
+
+{\bf Example:} A certain number added to its square is 30.  Find the number.\\
+\vspace{3 cm}
+
+{\bf Example:} The ages of three family children can be expressed as consecutive integers.  The square of the age of the youngest child is 4 more than eight times the age of the oldest child.  Find the ages of the three children.\\
+\vspace{3 cm}
+
+{\bf Example:} A square and rectangle have the same area.  The length of the 
+rectangle is five inches more than twice the length of the side of the 
+square.  The width of the rectangle is 6 inches less than the side of 
+the square.  Find the length of the side of the square.\\
+\vspace{5 cm}
+
+{\bf Example:} If the measure of one side of a square is increased by 2 centimeters and the measure of the adjacent side is decreased by 2 centimeters, the area of the resulting rectangle is 32 square centimeters.  Find the measure of one side of the square.\\
+
+\begin{problem}
+\begin{sagesilent}
+p=-x^2+3*x+9
+q=-2
+\end{sagesilent}
+ Evaluate $\sage{p}$ for $x = \sage{q}$. $Value=\answer{\sage{p(q)}}$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+t=var('t')
+p=t^2-5*t^5+9-4*t^3
+q=0
+\end{sagesilent}
+ Evaluate $\sage{p}$ for $t= \sage{q}$. $Value=\answer{\sage{p(q)}}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+t=var('t')
+p=t^2-5*t^5+9-4*t^3
+q=1
+\end{sagesilent}
+ Evaluate $\sage{p}$ for $t= \sage{q}$. $Value=\answer{\sage{p(q)}}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+t=var('t')
+p=t^2-5*t^5+9-4*t^3
+q=-1
+\end{sagesilent}
+ Evaluate $\sage{p}$ for $t= \sage{q}$. $Value=\answer{\sage{p(q)}}$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p=3+5*x
+q=8*x
+\end{sagesilent}
+True or False: $\sage{p}=\sage{q}$
+\begin{multipleChoice}
+    \choice{True}
+    \choice[correct]{False}
+\end{multipleChoice}
+\end{problem}
+
+
+
+\begin{problem}
+\begin{sagesilent}
+p=3*x^2+5*x
+q=8*x^3
+\end{sagesilent}
+True or False: $\sage{p}=\sage{q}$
+\begin{multipleChoice}
+    \choice{True}
+    \choice[correct]{False}
+\end{multipleChoice}
+\end{problem}
+
+
+
+\begin{problem}
+\begin{sagesilent}
+p=3*x+5*x
+q=8*x
+\end{sagesilent}
+True or False: $3x+5x=\sage{q}$
+\begin{multipleChoice}
+    \choice[correct]{True}
+    \choice{False}
+\end{multipleChoice}
+\end{problem}
+
+\begin{problem}
+Combine the like terms:
+
+\begin{enumerate}
+    \item $7x^3 - 5x^2 + 9x^3 + x^2 = \answer{\sage{7*x^3 - 5*x^2 + 9*x^3 + x^2}} $
+    \item $\displaystyle \frac{2}{3} x^4 - x^3 - \frac{1}{6} x^4 + \frac{2}{5} x^3 - \frac{3}{10} x^3 = \answer{\sage{2/3*x^4 - x^3 - 1/6*x^4 + 2/5*x^3 - 3/10*x^3}} $
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+Add or subtract:
+
+\begin{enumerate}
+    \item $(-5x^3 + 6x -1) + (4x^3 + 3x^2 + 2)
+    =\answer{0}\cdot x^4+\answer{-1}\cdot x^3+\answer{3}\cdot x^2+\answer{6}\cdot x+\answer{1}
+    \\=\answer{\sage{(-5*x^3 + 6*x -1) + (4*x^3 + 3*x^2 + 2)}}
+    $
+    \item $\displaystyle( \frac{2}{3} x^4 + 3x^2 - 7x + \frac{1}{2}) + ( - \frac{1}{3} x^4 + 5x^3 - 3x^2 + 3x - \frac{1}{2}) 
+    =\answer{1/3}\cdot x^4+\answer{5}\cdot x^3+\answer{0}\cdot x^2+\answer{-4}\cdot x+\answer{0}
+    \\= \answer{\sage{( 2/3*x^4 + 3*x^2 - 7*x + 1/2) + ( -1/3*x^4 + 5*x^3 - 3*x^2 + 3*x - 1/2) }} $
+    \item $(9x^5 + x^3 - 2x^2 + 4) - (-2x^5 + x^4 -4x^3 -3x^2) 
+        =\answer{0}\cdot x^6+\answer{11}\cdot x^5+\answer{-1}\cdot x^4+\answer{5}\cdot x^3+\answer{1}\cdot x^2+\answer{0}\cdot x+\answer{4}
+        \\= \answer{\sage{(9*x^5 + x^3 - 2*x^2 + 4) - (-2*x^5 + x^4 -4*x^3 -3*x^2)}}$
+    \item $(7x^5 + x^3 - 9x) - (3x^5 - 4x^3 + 5) 
+    =\answer{4}\cdot x^5+\answer{0}\cdot x^4+\answer{5}\cdot x^3+\answer{0}\cdot x^2+\answer{-9}\cdot x+\answer{-5}
+    \\= \answer{\sage{(7*x^5 + x^3 - 9*x) - (3*x^5 - 4*x^3 + 5)}}
+    $
+\end{enumerate}
+\end{problem}
+
+\begin{problem}
+$(5x)\cdot (6x) = \answer{30x^2}$
+\end{problem}
+
+\begin{problem}
+$(-x)(3x) = \answer{-3x^2} $
+\end{problem}
+
+\begin{problem}
+$(7x^5)(-3x^4) = \answer{-21x^9}$
+\end{problem}
+
+\begin{problem}
+$ x\cdot (x+3) = \answer{x^2+3x}$
+\end{problem}
+
+\begin{problem}
+$5x(2x^2 - 3x +4) = \answer{10x^3-15x^2+20x}$
+\end{problem}
+
+\begin{problem}
+$2 x^2  (x^3 - 7x^2 + 10x -4) =  \answer{2x^5-14x^4+20x^3-8x^2}$
+\end{problem}
+
+\begin{problem}
+$ (x+5) \cdot (x+3) = \answer{x^2+8x+15}$
+\end{problem}
+
+\begin{problem}
+$(4x-3)(x-2) = \answer{4x^2+6-11x}$
+\end{problem}
+
+\begin{problem}
+$(x^2 + 2x -3) (x + 4) =  \answer{\sage{(x^2 + 2*x -3)*(x + 4)}}$
+\end{problem}
+
+\begin{problem}
+$(x +8)(x^2+5)=\answer{x^3+8x^2+5x+40}$
+\end{problem}
+
+\begin{problem}
+$(x + 8)(x-8)=\answer{x^2-64}$
+\end{problem}
+
+\begin{problem}
+$(2x^3 + 5)(2x^3 - 5)=\answer{4x^6-25}$
+\end{problem}
+
+\begin{problem}
+$(x+7)^2=\answer{x^2+14x+49}$
+\end{problem}
+
+\begin{problem}
+$(t-5)^2 = \answer{t^2-10t+25}$
+\end{problem}
+
+\begin{problem}
+$(3a + 4)^2 = \answer{9a^2+24a+16}$
+\end{problem}
+
+\begin{problem}
+True or False: $ (5 + x)^2 = 5^2 + x^2 $
+\begin{multipleChoice}
+    \choice{True}
+    \choice[correct]{False}
+\end{multipleChoice}
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+p=4 + 3*x + x*y^2 + 8*x^3*y^3
+qx=-2
+qy=5
+\end{sagesilent}
+Evaluate the polynomial $\sage{p}$ for $x=\sage{qx}$ and $y=\sage{qy}$.
+$$Answer=\answer{\sage{p(qx,qy)}}$$
+Degree of the polynomial is $\answer{6}$.
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+p=-4 -30*x + 3*y^2 -10*x^2*y^3
+qx=1
+qy=-1
+\end{sagesilent}
+Evaluate the polynomial $\sage{p}$ for $x=\sage{qx}$ and $y=\sage{qy}$.
+$$Answer=\answer{\sage{p(qx,qy)}}$$
+Degree of the polynomial is $\answer{5}$
+\end{problem}
+
+
+\begin{problem}
+Combine the like terms: $9x^2y + 3xy^2 - 5x^2y - xy^2=\answer{\sage{9*x^2*y + 3*x*y^2 - 5*x^2*y - x*y^2}}$
+\end{problem}
+\begin{problem}
+\begin{sagesilent}
+a=var('a')
+b=var('b')
+\end{sagesilent}
+Add: $(5ab^2 - 4a^2b + 5a^3 + 2) + (3ab^2 - 2a^2b + 3a^3 - 5) =\answer{\sage{(5*a*b^2 - 4*a^2*b + 5*a^3 + 2) + (3*a*b^2 - 2*a^2*b + 3*a^3 - 5) }}$
+\end{problem}
+
+
+
+\begin{problem}
+Subtract: $(4x^2y + x^3y^2 + 3x^2y^3 + 6y)- (4x^2y - 6x^3y^2 + x^2y^2 - 5y) 
+=\answer{\sage{(4*x^2*y + x^3*y^2 + 3*x^2*y^3 + 6*y)- (4*x^2*y - 6*x^3*y^2 + x^2*y^2 - 5*y) }}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+\end{sagesilent}
+
+Multiply: $(3x^2y - 2xy + 3y)(xy + 2y)=\answer{\sage{(3*x^2*y - 2*x*y + 3*y)*(x*y + 2*y)}} $
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+\end{sagesilent}
+
+Multiply: $(3x^2y +2y)(3x^2y - 2y)=\answer{\sage{(3*x^2*y +2*y)*(3*x^2*y - 2*y)}}$
+\end{problem}
+
+
+
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+\end{sagesilent}
+Multiply: $(3x +2y)^2=\answer{9x^2+4y^2+12xy}$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+x=var('x')
+y=var('y')
+\end{sagesilent}
+Multiply: $(2x + 3 - 2y)(2x + 3 + 2y) =\answer{\sage{(2*x + 3 - 2*y)*(2*x + 3 + 2*y)}}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle \frac{15 x^{10}}{3 x^4} =\answer{5x^6}$
+\end{problem}
+
+\begin{problem}
+$$\displaystyle \frac{86x^5}{2x^3} = \answer{43x^2}$$
+\end{problem}
+
+\begin{problem}
+$\displaystyle \frac{80 x^{5} + 6 x^7}{2 x^3} =\answer{40x^2+3x^4}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle \frac{x^{4} + 15 x^3 - 6x^2}{3x} =\answer{x^3/3+5x^2-2x}$
+\end{problem}
+
+\begin{problem}
+$\displaystyle (10a^5b^4 - 2a^3b^2 + 6 a^2b) \div (-2a^2b) =\answer{-5a^3b^3+ab-3}$
+\end{problem}
+
+\begin{problem}
+Write the division as an integer plus a fraction between 0 and 1: 
+$$85,582 \div 24 =\answer{\sage{floor(85582/24)}}+\frac{\answer{\sage{85582-floor(85582/24)*24}}}{24}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p(x)=(2*x^4 - 9*x^3 + 21*x^2 - 26*x + 12)
+q(x)=( 2*x-3 )
+s=p.maxima_methods().divide(q)
+\end{sagesilent}
+Write the division as a polynomial plus a fraction whose top polynomial has a degree less than $\sage{q(x)}$: 
+$$(\sage{p(x)})\div (\sage{q(x)}) =\answer{\sage{s[0]}} +\frac{\answer{\sage{s[1]}}}{\sage{q(x)}}
+$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p(x)=(x^3+1)
+q(x)=( x+1 )
+s=p.maxima_methods().divide(q)
+\end{sagesilent}
+Write the division as a polynomial plus a fraction whose top polynomial has a degree less than $\sage{q(x)}$: 
+$$(\sage{p(x)})\div (\sage{q(x)}) =\answer{\sage{s[0]}} +\frac{\answer{\sage{s[1]}}}{\sage{q(x)}}$$
+\end{problem}
+
+
+\begin{problem}
+\begin{sagesilent}
+p(x)=(2*x^2 + 5*x - 1)
+q(x)=( 2*x-1 )
+s=p.maxima_methods().divide(q)
+\end{sagesilent}
+Write the division as a polynomial plus a fraction whose top polynomial has a degree less than $\sage{q(x)}$: 
+$$(\sage{p(x)})\div (\sage{q(x)}) =\answer{\sage{s[0]}} +\frac{\answer{\sage{s[1]}}}{\sage{q(x)}}$$
+\end{problem}
+
+\begin{problem}
+\begin{sagesilent}
+p(x)=(3*x^4 - 2*x^3 -6*x + 1)
+q(x)=( 2*x^2-1 )
+s=p.maxima_methods().divide(q)
+\end{sagesilent}
+Write the division as a polynomial plus a fraction whose top polynomial has a degree less than $\sage{q(x)}$: 
+$$(\sage{p(x)})\div (\sage{q(x)}) =\answer{\sage{s[0]}} +\frac{\answer{\sage{s[1]}}}{\sage{q(x)}}$$
+\end{problem}
+
+\end{document}
+
+
+\begin{javascript}
+  function isPositive(number) {
+    return number &gt; 0;
+  };
+ 
+  function sameParity(a,b) {
+    return (a-b)%2 == 0;
+  };
+ 
+  caseInsensitive = function(a,b) {
+    return a.toLowerCase() == b.toLowerCase();
+  };
+ 
+  sameDerivative = function(a,b) {
+    return a.derivative('x').equals( b.derivative('x') );
+  };
+\end{javascript}
